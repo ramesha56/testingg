@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    background-color: rgb(236, 150, 222);
+    height: 80px;
+}
+
+#menu {
+    color: rgb(240, 230, 230);
+    font-weight: 500;
+    position: relative;
+}
+
+
+
+#menu:hover {
+    color: #e0bf75;
+
+}
+
+
+#menu:after {
+    content: "";
+    position: absolute;
+    background-color: #6b14cf;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 5px;
+    transition: 0.3s;
+
+}
+
+#menu:hover:after {
+    width: 100%;
+
+}
+
+
+#menu30:after {
+    content: "";
+    position: absolute;
+    background-color: #31d2f2;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 70px;
+    transition: 0.1s;
+}
+
+#menu30:hover:after {
+    width: 100%;
+}
+
+
+
+
+
+
+
+#menu01:after {
+    content: "";
+    position: absolute;
+    background-color: #31d2f2;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: 0.1s;
+}
+
+#menu01:hover:after {
+    width: 100%;
+}
+
+
+
+
+#navbarDropdownMenuLink:hover {
+    color: #509fc4;
+}
+
+.bgimage1 {
+    background-image: url(images/bgimg.jpg);
+    height: 700px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.dropdown-item:hover {
+    color: #f6f6f6;
+    background-color: darkgray;
+}
+
+
+.text1 {
+    font-size: 80px;
+    color: rgb(98, 26, 192);
+    padding-top: 120px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-left: 100px;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btn1 {
+    margin-left: 100px;
+    color: white;
+    width: 150px;
+    color: #6b14cf;
+ 
+}
+
+#btn1:hover {
+    width: 155px;
+  
+
+}
+
+#btn1 .fas {
+    position: absolute;
+    transform: translateX(-50%);
+    opacity: 0;
+  
+   
+}
+
+#btn1:hover .fas {
+    opacity: 1;
+    transform: translateX(0);
+    
+}
+
+
+#intro {
+    background-color: rgb(223, 155, 202);
+}
+
+#text1212 {
+    box-shadow: 1px 1px 1px 2px gainsboro;
+}
+
+#btn2 {
+
+    color: white;
+    width: 150px;
+    color: #6b14cf;
+
+
+}
+
+#btn2:hover {
+    width: 155px;
+
+
+}
+
+#btn2 .fas {
+    position: absolute;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+#btn2:hover .fas {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#my {
+    box-shadow: 1px 1px 1px 2px rgb(80, 13, 167);
+}
+
+.footer {
+    background-color: rgb(236, 150, 222);
+    width: 100%;
+    height: 200px;
+}
+
+
+.icons {
+    text-align: center;
+
+}
